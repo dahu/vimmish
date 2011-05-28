@@ -9,9 +9,9 @@ task :all_tests do
 end
 
 Rake::TestTask.new(:test) do |t|
-  ENV['TESTOPTS'] = '--runner=s'
+  ENV['TESTOPTS'] = '--runner=c'
 
-  t.libs << 'lib'
+  t.libs << ['.', 'test']
   t.pattern = 'test/**/*_test.rb'
   t.verbose = true
 end

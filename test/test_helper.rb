@@ -1,6 +1,7 @@
 require 'rubygems'
-require 'test/spec'
 require 'mocha'
+gem 'test-unit'
+require 'test/spec'
 
 require 'lib/vimmish'
 require 'test/assertions'

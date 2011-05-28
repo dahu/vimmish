@@ -1,3 +1,5 @@
+gem 'test-unit'
+require 'test/spec'
 module Assertions
   class ParseTo < Test::Spec::CustomShould
     def initialize(parser, result)
