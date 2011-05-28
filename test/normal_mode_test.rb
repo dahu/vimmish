@@ -30,7 +30,7 @@ describe 'normal mode commands' do
 
   {
     'D' =>  [ ['D', 'delete the rest of the current line'] ], # TODO with count it advances too..
-    'J' =>  [ ['J', 'unite the current line with the next one'] ],
+    'J' =>  [ ['J', 'join the current line with the next one'] ],
     'dd' => [ ['dd', 'delete current line'] ],
   }.each_pair do |vim, result|
     it "should parse #{vim}" do

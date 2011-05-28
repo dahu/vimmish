@@ -9,8 +9,8 @@ module Command
       'r'  => 'replace current character with: ',
       'dd' => 'delete current line',
       'D'  => 'delete the rest of the current line',
-      'J'  => 'unite the current line with the next one',
-      '~'  => {:default => 'change character case', :selection => false},
+      'J'  => 'join the current line with the next one',
+      '~'  => {:default => 'change character case', :selection => false},   #WTF false?!
       'gv' => 're-select previous selection',
       '.'  => 'repeat last command',
 
